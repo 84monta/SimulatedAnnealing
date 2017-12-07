@@ -1,6 +1,7 @@
 import numpy as np
 import json
 import math
+import time
 
 #Definition 
 T_MAX  = 800.0
@@ -39,6 +40,7 @@ current_energy = ret_energy(edge_array,person)
 #Create new status area
 tmp_person = person.copy()
 
+start_time = time.time()
 #main loop
 while steps < MAX_STEMPS:
     steps = steps + 1
@@ -59,5 +61,7 @@ while steps < MAX_STEMPS:
         else:
             tmp_person[selecter] = -tmp_person[selecter] 
     current_temp = T_MAX * math.exp(-math.log(T_MAX / T_MIN)* steps/MAX_STEMPS)
-    
+  
+end_time = time.time()  
+print("elapsed_time:{0}".format(end_time - start_time) + "[sec]")
 print("**Final temperature = %4.4f , current energy = %f**" % (current_temp,current_energy))
