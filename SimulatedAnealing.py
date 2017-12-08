@@ -23,7 +23,7 @@ tri_array = np.tri(PERSONS) - np.eye(PERSONS)
 
 ## calculate energy
 def ret_energy(Edge,Person):
-    return np.sum(np.dot(Edge,(tri_array - np.outer(Person, Person) * tri_array)/2.0))
+    return np.sum(Edge * (tri_array - np.outer(Person, Person) * tri_array)/2.0)
 
 ## return move new status or not
 def ret_prob(PreE,CurE,temp):
@@ -65,3 +65,4 @@ while steps < MAX_STEMPS:
 end_time = time.time()  
 print("elapsed_time:{0}".format(end_time - start_time) + "[sec]")
 print("**Final temperature = %4.4f , current energy = %f**" % (current_temp,current_energy))
+
