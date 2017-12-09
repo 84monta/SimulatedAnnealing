@@ -9,6 +9,7 @@ Optional
 if you want to use GPU(CUDA), get librarys as followings:
 
 `pip install cupy
+
 pip install chainer`
 
 https://qnncloud.com/index-jp.html
