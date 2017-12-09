@@ -10,7 +10,8 @@ if you want to use GPU(CUDA), get librarys as followings:
 
 ```ruby:
 pip install cupy
-pip install chainer```
+pip install chainer
+```
 
 https://qnncloud.com/index-jp.html
 
