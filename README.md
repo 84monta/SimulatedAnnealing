@@ -8,7 +8,7 @@ Optional
 
 if you want to use GPU(CUDA), get librarys as followings:
 
-```ruby:installOptionallibrarys
+```
 pip install cupy
 pip install chainer
 ```
