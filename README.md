@@ -61,7 +61,7 @@ Ajust "PERSON" to fit a problem size. (equal to input data)
 PERSONS = 1000
 ```
 
-- PERSONS You can change 
+- PERSONS You can change  this variable to fit Input data size
 
 ## Trial number
 
@@ -70,3 +70,5 @@ TRIAL=1
 ```
 
 - TRIAL How may times do you wanna repeat Simulated Annealing?
+
+# Enjoy!
