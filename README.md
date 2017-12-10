@@ -19,8 +19,9 @@ https://qnncloud.com/index-jp.html
 
 # Usage
 
-1.Put code and inputdata(*.jij) in same directory
-2.just run `python SimulatedAnnealing.py`
+1. Put code and inputdata(*.jij) in same directory
+
+2. just run `python SimulatedAnnealing.py`
 
 no argument. Non :(
 
