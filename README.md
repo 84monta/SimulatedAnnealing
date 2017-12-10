@@ -17,10 +17,11 @@ pip install chainer
 
 https://qnncloud.com/index-jp.html
 
-# Argument
+# Usage
 
- Non :(
- Change code directly
+no argument. Non :(
+
+Change code directly
  
 # Variables
 
