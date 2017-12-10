@@ -39,8 +39,8 @@ T_LOOP = 600
 
 - T_MAX    A starting temperature for a simulation
 - T_MIN    A final temperature for a simulation
-- MAX_STEMPS How many numbers to chop between T_MAX and T_MIN
-- T_LOOP   How many time to try changing status on each temperature
+- MAX_STEMPS How many numbers do you chop between T_MAX and T_MIN
+- T_LOOP   How many time do you try to change a status on each temperature
 
 ## Input data
 You can use data which is donloaded from QNNCloud web page.
@@ -51,7 +51,7 @@ f = open('201711282214561557-Jij.json', 'r') # for 1000 CHANGE PERSON =1000
 ```
 
 ## Size of problem
-Ajust "PERSON" to fit problem size.
+Ajust "PERSON" to fit a problem size. (equal to input data)
 
 ```
 PERSONS = 1000
