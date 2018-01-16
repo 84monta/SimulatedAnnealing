@@ -2,13 +2,13 @@
 
 To compare quantum annealing with traditional way, I created this example code.
 
-# Rquirement
+# Requirement
 
 - Python 3.x
 
 ***Optional***
 
-if you want to use GPU(CUDA), get librarys as followings:
+if you want to use GPU(CUDA), get libraries as followings:
 
 ```
 pip install cupy
@@ -47,7 +47,7 @@ T_LOOP = 600
 - T_LOOP   How many time do you try to change a status on each temperature
 
 ## Input data
-You can use data which is donloaded from QNNCloud web page.
+You can use data which is donwloaded from QNNCloud web page.
 ```
 #f = open('201712030215556824-Jij.json', 'r') # for 100 CHANGE PERSON =100
 f = open('201711282214561557-Jij.json', 'r') # for 1000 CHANGE PERSON =1000
@@ -55,7 +55,7 @@ f = open('201711282214561557-Jij.json', 'r') # for 1000 CHANGE PERSON =1000
 ```
 
 ## Size of problem
-Ajust "PERSON" to fit a problem size. (equal to input data)
+Adjust "PERSON" to fit a problem size. (equal to input data)
 
 ```
 PERSONS = 1000
@@ -69,6 +69,6 @@ PERSONS = 1000
 TRIAL=1
 ```
 
-- TRIAL How may times do you wanna repeat Simulated Annealing?
+- TRIAL How many times do you wanna repeat Simulated Annealing?
 
 # Enjoy!
